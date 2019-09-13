@@ -1,0 +1,78 @@
+
+{% load static %}
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        
+        <div class="wrapper">
+           <header>
+                <nav>
+                   <ul>
+                       <li>
+                         SORUMATİK
+                       </li>
+                   </ul>
+                </nav>
+            </header>
+           <div class="h1">
+               <nav>
+                   <ul>
+                       <li>
+                           KONULAR
+                       </li>
+                       <li>
+                           ÇALIŞILAN KONU:
+                       </li>
+                       <li>
+
+                       </li>
+                   </ul>
+                </nav>
+           </div>
+           <div class="soruno">
+               Soru No.:
+           </div>
+            <div class="sorumetni">
+               <asp:Label ID="Label1" runat="server" Text="Soru Metni..." style="font-weight: 700"></asp:Label>
+            </div>
+            <div class="cevap">
+                Doğru Yanıt:
+            </div>
+            <div class="cevapmetni">
+                <asp:Label ID="Label2" runat="server" Text="Cevap Metni..." style="font-weight: 700; font-style: italic"></asp:Label>
+                
+            </div>
+            <div class="dogrusayisi">
+                Doğru Sayısı:
+            </div>
+            <div class="dogrusayisiadet">
+                Doğru Adedi
+            </div>
+            <asp:Button ID="Button1" runat="server" Text="Doğru Cevabı Göster" OnClick="Button1_Click" />
+            <div class="yanlissayisi">
+                Yanlış Sayısı:
+            </div>
+            <div class="yanlissayisiadet">
+                Yanlış Adedi
+            </div>
+            <asp:Button ID="Button2" runat="server" Text="Doğru Cevap" />
+            <asp:Button ID="Button3" runat="server" Text="Yanlış Cevap" />
+            <div class="basariyuzdesi">
+                Başarı Yüzdesi:
+            </div>
+            <div class="basariyuzdesiadet">
+                Başarı Yüzdesi
+            </div>
+            
+            <asp:Button ID="Button4" runat="server" Text="Yeni Soru" />
+        </div>
+    </form>
+</body>
+</html>
