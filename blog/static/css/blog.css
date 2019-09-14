@@ -108,16 +108,16 @@ header nav ul{
     height: 30px;
     background-color: #00ffff;
     margin-top: 0px;
-    margin-left: 130px;
+    margin-left: 200px;
     line-height: 30px;
 }
-#Button4 {
+#Button4  {
     float: left;
     width: 300px;
     height: 30px;
     background-color: #00ffff;
     margin-top: 40px;
-    margin-left: -130px;
+    margin-left: -200px;
     line-height: 30px;
 }
 .dogrusayisi {
