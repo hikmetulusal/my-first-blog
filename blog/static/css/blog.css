@@ -7,7 +7,7 @@ body {
     border:0;
 }
 .wrapper {
-    height: 580px;
+    height: 680px;
     width: 1200px;
     margin: 0 auto;
     background-color: #9999;
@@ -83,53 +83,14 @@ header nav ul{
     margin-right: 50px;
 
 }
-.dogrusayisi {
-    float: left;
-    margin-top: 20px;
-    height: 30px;
-    width: 120px;
-    background-color: #d5d5d5;
-    text-align: right;
-    margin-left: 450px;
-    line-height: 30px;
-}
-.dogrusayisiadet {
-    float: left;
-    margin-top: 20px;
-    height: 30px;
-    width: 120px;
-    background-color: #d5d5d5;
-    text-align: left;
-    margin-left: 10px;
-    line-height: 30px;
-}
+
 #Button1 {
     float: left;
     width: 300px;
     height: 30px;
     background-color: #00ffff;
-    margin-top: 20px;
-    margin-left: 100px;
-    line-height: 30px;
-}
-.yanlissayisi {
-    float: left;
-    margin-top: 20px;
-    height: 30px;
-    width: 120px;
-    background-color: #d5d5d5;
-    text-align: right;
-    margin-left: 450px;
-    line-height: 30px;
-}
-.yanlissayisiadet {
-    float: left;
-    margin-top: 20px;
-    height: 30px;
-    width: 120px;
-    background-color: #d5d5d5;
-    text-align: left;
-    margin-left: 10px;
+    margin-top: 30px;
+    margin-left: 200px;
     line-height: 30px;
 }
 #Button2 {
@@ -137,8 +98,8 @@ header nav ul{
     width: 100px;
     height: 30px;
     background-color: #00ffff;
-    margin-top: 20px;
-    margin-left: 100px;
+    margin-top: 40px;
+    margin-left: 0px;
     line-height: 30px;
 }
 #Button3 {
@@ -146,37 +107,79 @@ header nav ul{
     width: 100px;
     height: 30px;
     background-color: #00ffff;
-    margin-top: 20px;
-    margin-left: 100px;
+    margin-top: 0px;
+    margin-left: 130px;
     line-height: 30px;
 }
-
-.basariyuzdesi {
+#Button4 {
     float: left;
-    margin-top: 20px;
+    width: 300px;
+    height: 30px;
+    background-color: #00ffff;
+    margin-top: 40px;
+    margin-left: -130px;
+    line-height: 30px;
+}
+.dogrusayisi {
+    float: left;
+    margin-top: -80px;
     height: 30px;
     width: 120px;
     background-color: #d5d5d5;
     text-align: right;
-    margin-left: 450px;
+    margin-left: 600px;
+    line-height: 30px;
+}
+.dogrusayisiadet {
+    float: left;
+    margin-top: -80px;
+    height: 30px;
+    width: 120px;
+    background-color: #d5d5d5;
+    text-align: left;
+    margin-left: 730px;
+    line-height: 30px;
+}
+
+.yanlissayisi {
+    float: left;
+    margin-top: -40px;
+    height: 30px;
+    width: 120px;
+    background-color: #d5d5d5;
+    text-align: right;
+    margin-left: 600px;
+    line-height: 30px;
+}
+.yanlissayisiadet {
+    float: left;
+    margin-top: -40px;
+    height: 30px;
+    width: 120px;
+    background-color: #d5d5d5;
+    text-align: left;
+    margin-left: 730px;
+    line-height: 30px;
+}
+
+
+.basariyuzdesi {
+    float: left;
+    margin-top: 0px;
+    height: 30px;
+    width: 120px;
+    background-color: #d5d5d5;
+    text-align: right;
+    margin-left: 600px;
     line-height: 30px;
 }
 .basariyuzdesiadet {
     float: left;
     text-align: left;
-    margin-top: 20px;
+    margin-top: -30px;
     height: 30px;
     width: 120px;
     background-color: #d5d5d5;
-    margin-left: 10px;
-    line-height: 30px;
-}
-#Button4 {
-    float: left;
-    width: 200px;
-    height: 30px;
-    background-color: #00ffff;
-    margin-top: 20px;
-    margin-left: 150px;
+    margin-left: 730px;
     line-height: 30px;
 }
